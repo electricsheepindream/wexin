@@ -1,5 +1,4 @@
 from werobot import WeRoBot
-
 robot = WeRoBot(enable_session=False,
                 token='esid',
                 APP_ID='wxc6ec8eda771e9cf2',
