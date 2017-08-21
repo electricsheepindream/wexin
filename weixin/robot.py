@@ -5,7 +5,7 @@ robot = WeRoBot(enable_session=False,
                 APP_SECRET='99e8d052e83864de0df9c973382b5ffd'
                 )
 
-@robot.text
+
+@robot.handler
 def hello(message):
-    if message == '天气':
-        return 'hello'
+    return hello
